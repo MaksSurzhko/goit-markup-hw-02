@@ -164,13 +164,15 @@ body{
 }
 
 .footer-logo{
+    font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
     line-height: calc(21 / 18);
     color: #F4F4FD;
 }
 
-.footer-web {
+.footer-web{
+    font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
     line-height: calc(21 / 18);
