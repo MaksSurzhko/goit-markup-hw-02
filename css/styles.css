@@ -1,102 +1,119 @@
-.body{
+:root{
+    --white-color:#FFFFFF;
+    --gray-color: #2E2F42;
+    --bage-color: #E7E9FC;
+    --blue-color: #4D5AE5;
+}
+
+body{
     font-family: 'Roboto', sans-serif;
-    background: #FFFFFF;
+    background: var(--white-color);
+}
+
+.list-none {
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
 }
 
 /*_______Header________*/
 
-.header{
-}
 
 .header-logo{
+    font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
     line-height: calc(24 / 18);
-    color: #2E2F42;
+    color: var(--gray-color);
 }
 
 .web{
+    font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
     line-height: calc(24 / 18);
-    color: #4D5AE5;
+    color: var(--blue-color);
 }
 
 .header-pages{
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: calc(24 / 16);
-    color: #2E2F42;
+    color: var(--gray-color);
 }
 
 .header-pages:hover{
     color: #434455;
 }
 .header-pages:focus{
-   color: #4D5AE5;
+   color: var(--blue-color);
 }
 
 .header-info{
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(24 / 16);
     color: #434455;
 }
 
 .header-info:hover{
-    color: #4D5AE5;
+    color: var(--blue-color);
+}
+
+.header-info:focus{
+    color: var(--blue-color);
 }
 
 /*_______Section-1________*/
 
-.section-1{
-    background: #2E2F42;
+.section-one{
+    background: var(--gray-color);
 }
 
-.section-1-title{
-    font-weight: 600;
+.section-one-title{
+    font-weight: 500;
     font-size: 56px;
     line-height: calc(60 / 56);
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 
-.section-1-btn{
-    font-weight: 600;
+.section-one-btn{
+    font-family: inherit;
+    font-weight: 500;
     font-size: 16px;
     line-height: calc(19 / 16);
-    color: #FFFFFF;
-    background: #4D5AE5;
+    color: var(--white-color);
+    background: var(--blue-color);
     cursor: pointer;
 }
 
-.section-1-btn:hover{
-    background: #4D5AE5;
+.section-one-btn:hover{
+    background: var(--blue-color);
 }
 
-.section-1-btn:focus{
+.section-one-btn:focus{
     background: #404BBF;
 }
 
 /*_______Section-2________*/
 
-.section-2{}
 
-.section-2-list{
-    font-weight: 600;
+.section-two-list{
+    font-weight: 500;
     font-size: 20px;
     line-height: calc(24 / 20);
-    color: #2E2F42;
+    color: var(--gray-color);
 }
 
-.section-2-puncts{
-    font-weight: 600;
+.section-two-puncts{
+    font-weight: 500;
     font-size: 20px;
     line-height: calc(24 / 20);
-    color: #2E2F42;
+    color: var(--gray-color);
 }
 
-.section-2-info{
-    font-weight: 400;
+.section-two-info{
     font-size: 16px;
     line-height: calc(24 / 16);
     color: #434455;
@@ -104,43 +121,37 @@
 
 /*_______Section-3________*/
 
-.section-3{}
 
-.section-3-title{
-    font-weight: 600;
+.section-three-title{
+    font-weight: 500;
     font-size: 36px;
     line-height: calc(40 / 36);
-    color: #2E2F42;
+    color: var(--gray-color);
 }
 
-.section-3-photo{}
 
 /*_______Section-4________*/
 
-.section-4{
+.section-four{
     background: #F4F4FD;
 }
 
-.section-4-title{
-    font-weight: 600;
+.section-four-title{
+    font-weight: 500;
     font-size: 36px;
     line-height: calc(40 / 36);
-    color: #2E2F42;
+    color: var(--gray-color);
 }
 
-.section-4-list{}
 
-.section-4-photo{}
-
-.section-4-name{
-    font-weight: 600;
+.section-four-name{
+    font-weight: 500;
     font-size: 20px;
     line-height: calc(24 / 20);
-    color: #2E2F42;
+    color: var(--gray-color);
 }
 
-.section-4-prof{
-    font-weight: 400;
+.section-four-prof{
     font-size: 16px;
     line-height: calc(24 / 16);
     color: #434455;
@@ -149,7 +160,7 @@
 /*_______Footer________*/
 
 .footer{
-    background: #2E2F42;
+    background: var(--gray-color);
 }
 
 .footer-logo{
@@ -163,11 +174,10 @@
     font-weight: 800;
     font-size: 18px;
     line-height: calc(21 / 18);
-    color: #4D5AE5;
+    color: var(--blue-color);
 }
 
 .footer-info{
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(24 / 16);
     color: #E7E9FC;
@@ -175,39 +185,35 @@
 
 /*_______Portfolio________*/
 
-.portfolio{}
-
-.portfolio-btn-2{
-    font-weight: 600;
-    font-size: 16px;
-    line-height: calc(24 / 16);
-    color: #FFFFFF;
-    background: #4D5AE5;
-    cursor: pointer;
-}
-
 .portfolio-btn{
-    font-weight: 600;
+    font-family: inherit;
+    font-weight: 500;
     font-size: 16px;
     line-height: calc(24 / 16);
-    color: #4D5AE5;
+    color: var(--blue-color);
     background: #F4F4FD;
     cursor: pointer;
 }
 
-.portfolio-list{}
 
-.portfolio-photo{}
+.portfolio-btn:hover{
+    background: var(--blue-color);
+    color: var(--white-color)
+}
+
+.portfolio-btn:focus{
+    background: var(--blue-color);
+    color: var(--white-color)
+}
 
 .portfolio-name{
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
-    line-height: 2calc(24 / 20);
-    color: #2E2F42;
+    line-height: calc(24 / 20);
+    color: var(--gray-color);
 }
 
 .portfolio-prod{
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(24 / 16);
     color: #434455;
